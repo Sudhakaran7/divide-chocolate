@@ -1,0 +1,59 @@
+You have one chocolate bar that consists of some chunks. Each chunk has its own sweetness given by the
+array sweetness.
+You want to share the chocolate with your K friends so you start cutting the chocolate bar into K+1 pieces
+using K cuts, each piece consists of some consecutive chunks.
+Being generous, you will eat the piece with the minimum total sweetness and give the other pieces to your
+friends.
+Find the maximum total sweetness of the piece you can get by cutting the chocolate bar optimally.
+
+Input Description:
+The first line contains two integers N and K. (1≤N,K≤1000)
+The second line containsn elements as integers.
+
+Output Descritpion:
+the maximum total sweetness of the piece you can get by cutting the chocolate bar optimally.
+
+Sample Input:
+9 5
+1 2 3 4 5 6 7 8 9
+
+Sample Output:
+6
+
+Explanation:
+From the given chocolate, You can divide the chocolate to [1,2,3], [4,5], [6], [7], [8], [9]
+
+Sample Input:
+5 3
+3 5 7 9 11
+
+Sample Output:
+7
+
+Sample Input:
+7 6
+12 34 55 34 21 11
+
+Sample Output:
+10
+
+Sample Input:
+3 8
+22 33 44
+
+Sample Output:
+11
+
+Sample Input:
+9 3
+21 31 41 51 61 71 81 91 101
+
+Sample Output:
+101
+
+Sample Input:
+4 5
+99 88 87 65 44
+
+Sample Output:
+43
